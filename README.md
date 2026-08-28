@@ -16,3 +16,7 @@ Evoluir uma página web existente por meio de trabalho colaborativo.
 - Daniel Varela - HTML
 - Nicolle Marinho - CSS
 - Pedro Vieria - JavaScript
+
+## Link do Projeto
+
+predromv30.github.io/devops/
