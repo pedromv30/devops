@@ -10,3 +10,17 @@ formContato.addEventListener("submit", (evento) => {
  const nome = document.querySelector("#nome").value;
  resposta.textContent = `Obrigado pelo contato, ${nome}!`;
 });
+const linksNavegacao = document.querySelectorAll("nav a");
+
+linksNavegacao.forEach((link) => {
+  link.addEventListener("click", (evento) => {
+    evento.preventDefault();
+
+    const idSecao = link.getAttribute("href");
+    const secao = document.querySelector(idSecao);
+
+    secao.scrollIntoView({
+      behavior: "smooth"
+    });
+  });
+});
