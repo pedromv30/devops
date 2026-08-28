@@ -12,7 +12,7 @@ Evoluir uma página web existente por meio de trabalho colaborativo.
 
 ## Equipe
 
-Carlos Eduardo Nogueira - Líder e README
-Daniel Varela - HTML
-Nicolle Marinho - CSS
-Pedro Vieria - JavaScript
+- Carlos Eduardo Nogueira - Líder e README
+- Daniel Varela - HTML
+- Nicolle Marinho - CSS
+- Pedro Vieria - JavaScript
