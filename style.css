@@ -1,51 +1,122 @@
-/* --- ADIÇÕES PARA OS TONS DE VERDE --- */
-
-:root {
-  --verde-principal: #10b981; /* Verde moderno */
-  --verde-hover: #047857;     /* Verde mais escuro  */
-  --verde-claro: #ecfdf5;     /* Fundo suave */
+* {
+  box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+/* CABEÇALHO */
 .topo {
-  background: #022c22; /* Um verde escuro para o topo */
+  background-color: #003d33;
   color: white;
-  padding: 40px 24px;
   text-align: center;
+  padding: 40px 20px;
 }
 
-.topo button, 
-.topo a {
-  background: var(--verde-principal);
-  color: white;
-  border: none;
-  padding: 12px 18px;
-  border-radius: 8px;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  font-weight: 600;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+.topo h1 {
+  margin-top: 0;
 }
 
-/* Tom de verde mais escuro nos botões */
-.topo button:hover, 
-.topo a:hover {
-  background: var(--verde-hover);
-  transform: translateY(-2px);
-}
-.navegacao a,
-#botaoDestaque,
-form button {
+/* BOTÃO DESTAQUE */
+#botaoDestaque {
   background-color: #0056b3;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#botaoDestaque:hover {
+  background-color: #003d80;
+}
+
+/* NAVEGAÇÃO */
+.navegacao ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navegacao a {
+  display: block;
+  background-color: #0056b3;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navegacao a:hover {
+  background-color: #003d80;
+}
+
+/* CONTEÚDO */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.secao {
+  margin-bottom: 50px;
+}
+
+.secao h2 {
+  text-align: center;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 25px;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* FORMULÁRIO */
+#formContato {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#formContato input,
+#formContato textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#formContato button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 12px;
   border-radius: 6px;
   cursor: pointer;
 }
 
-.navegacao a:hover,
-#botaoDestaque:hover,
-form button:hover {
+#formContato button:hover {
   background-color: #003d80;
 }
