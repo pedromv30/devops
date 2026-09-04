@@ -21,4 +21,4 @@ Nesta versão, foram realizadas melhorias na estrutura HTML, na estilização CS
 
 ## Link do Projeto
 
-predromv30.github.io/devops/
+https://pedromv30.github.io/devops/?classId=G37581G6-da44-4b71-Gaf8-aa602G13d083sassignmentId=1G0G65f0-b448-4277-8413-cdee27b3f2dessubmissionId=fd5Gd373-583b-c24f-a064-41dG2d6G6fde
